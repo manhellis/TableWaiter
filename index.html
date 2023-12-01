@@ -1,197 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta
+      charset="UTF-8"
+      <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Table Waiter</title>
-    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="/dist/output.css" />
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-</head>
-<body class="font-all-round-gothic">
-    <div class="bg-white flex  max-w-full flex-col">
+  </head>
+  <body class="font-all-round-gothic">
+    <div class="bg-white flex max-w-full flex-col">
+      <div
+        class="flex-col overflow-hidden self-stretch relative flex min-h-[843px] w-full items-stretch max-md:max-w-full"
+      >
+        <!-- Photo by <a href="https://unsplash.com/@luisabrimble?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Luisa Brimble</a> on <a href="https://unsplash.com/photos/people-eating-on-table-with-foods-aFzg83dvnAI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+
+        <img
+          src="./imgs/banner.jpeg"
+          class="absolute h-full w-full object-cover object-center inset-0"
+        />
         <div
-          class="flex-col overflow-hidden self-stretch relative flex min-h-[843px] w-full items-stretch max-md:max-w-full"
+          class="relative bg-neutral-600 bg-opacity-40 w-full pl-11 pr-20 pb-12 max-md:max-w-full max-md:px-5"
         >
-          <img
-            loading="lazy"
-            srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/6781eeb6-46b5-4487-9adf-445a3e135111?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/6781eeb6-46b5-4487-9adf-445a3e135111?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6781eeb6-46b5-4487-9adf-445a3e135111?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/6781eeb6-46b5-4487-9adf-445a3e135111?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/6781eeb6-46b5-4487-9adf-445a3e135111?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6781eeb6-46b5-4487-9adf-445a3e135111?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/6781eeb6-46b5-4487-9adf-445a3e135111?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/6781eeb6-46b5-4487-9adf-445a3e135111?apiKey=97d67695644d4dd89be6de8ac3b3a4de&"
-            class="absolute h-full w-full object-cover object-center inset-0"
-          />
           <div
-            class="relative bg-neutral-600 bg-opacity-40 w-full pl-11 pr-20 pb-12 max-md:max-w-full max-md:px-5"
+            class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"
           >
-            <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+            <div
+              class="flex flex-col items-stretch w-[71%] max-md:w-full max-md:ml-0"
+            >
               <div
-                class="flex flex-col items-stretch w-[71%] max-md:w-full max-md:ml-0"
+                class="relative flex flex-col items-start max-md:max-w-full max-md:mt-10"
               >
+                <img
+                  src="./imgs/white_logo.png"
+                  class="aspect-[2.59] object-contain object-center w-[517px] overflow-hidden max-w-full"
+                />
                 <div
-                  class="relative flex flex-col items-start max-md:max-w-full max-md:mt-10"
+                  class="self-stretch flex flex-col items-stretch mt-32 pl-14 max-md:max-w-full max-md:mt-10 max-md:pl-5"
                 >
-                  <img
-                    src="./imgs/white_logo.png"
-                    class="aspect-[2.59] object-contain object-center w-[517px] overflow-hidden max-w-full"
-                  />
                   <div
-                    class="self-stretch flex flex-col items-stretch mt-32 pl-14 max-md:max-w-full max-md:mt-10 max-md:pl-5"
+                    class="justify-center text-white text-8xl font-bold leading-[116px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]"
                   >
-                    <div
-                      class="justify-center text-white text-8xl font-bold leading-[116px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]"
-                    >
-                      Order & Savour
-                      <br />
-                      in a Click
-                    </div>
-                    <div
-                      class="text-white text-center text-xl font-bold leading-6 whitespace-nowrap bg-red-500 w-[222px] max-w-full items-center mt-40 px-5 py-5 rounded-xl self-start max-md:mt-10"
-                    >
-                      DOWNLOAD APP
-                    </div>
+                    Order & Savour
+                    <br />
+                    in a Click
+                  </div>
+                  <div
+                    class="text-white text-center text-xl font-bold leading-6 whitespace-nowrap bg-red-500 w-[222px] max-w-full items-center mt-40 px-5 py-5 rounded-xl self-start max-md:mt-10"
+                  >
+                    DOWNLOAD APP
                   </div>
                 </div>
               </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-[29%] ml-5 max-md:w-full max-md:ml-0"
+            >
               <div
-                class="flex flex-col items-stretch w-[29%] ml-5 max-md:w-full max-md:ml-0"
+                class="relative flex flex-col my-auto items-end max-md:mt-10"
               >
-                <div class="relative flex flex-col my-auto items-end max-md:mt-10">
-                  <img
-                    loading="lazy"
-                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&"
-                    class="aspect-[1.07] object-contain object-center w-16 overflow-hidden max-w-full "
-                  />
-                  <!-- mockup -->
+                <img
+                  loading="lazy"
+                  srcset="
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100   100w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200   200w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400   400w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800   800w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/3e62d33c-cc0f-4974-82e4-22cfedd23976?apiKey=97d67695644d4dd89be6de8ac3b3a4de&
+                  "
+                  class="aspect-[1.07] object-contain object-center w-16 overflow-hidden max-w-full"
+                />
+                <!-- mockup -->
 
-                  <img
-                    src="./imgs/Landing Page.png"
-                    class="aspect-[0.61] object-contain object-center w-full overflow-hidden self-stretch mt-7"
-                  />
-                </div>
+                <img
+                  src="./imgs/Landing Page.png"
+                  class="aspect-[0.61] object-contain object-center w-full overflow-hidden self-stretch mt-7"
+                />
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div
+        class="self-center flex w-[536px] max-w-full items-stretch gap-0 mt-36 max-md:flex-wrap max-md:mt-10"
+      >
+        <div class="flex grow basis-[0%] flex-col items-stretch px-5">
+          <div
+            class="justify-center text-red-500 text-right text-5xl font-bold leading-[58px] -mr-5 max-md:text-4xl max-md:leading-[54px]"
+          >
+            AWESOME
+          </div>
+          <div class="bg-orange-700 shrink-0 h-[3px] -mr-5 mt-8"></div>
+        </div>
+        <div class="flex grow basis-[0%] flex-col items-center px-5">
+          <div
+            class="justify-center text-lime-600 text-5xl font-bold leading-[58px] max-md:text-4xl max-md:leading-[54px]"
+          >
+            FEATURES
+          </div>
+          <div
+            class="bg-zinc-500 self-stretch shrink-0 h-[3px] -mr-5 mt-8"
+          ></div>
+        </div>
+      </div>
+      <div class="self-center w-[80%] max-w-full mt-20 px-5 max-md:mt-10">
         <div
-          class="self-center flex w-[536px] max-w-full items-stretch gap-0 mt-36 max-md:flex-wrap max-md:mt-10"
-        >
-          <div class="flex grow basis-[0%] flex-col items-stretch px-5">
-            <div
-              class="justify-center text-red-500 text-right text-5xl font-bold leading-[58px] -mr-5 max-md:text-4xl max-md:leading-[54px]"
-            >
-              AWESOME
-            </div>
-            <div class="bg-orange-700 shrink-0 h-[3px] -mr-5 mt-8"></div>
-          </div>
-          <div class="flex grow basis-[0%] flex-col items-center px-5">
-            <div
-              class="justify-center text-lime-600 text-5xl font-bold leading-[58px] max-md:text-4xl max-md:leading-[54px]"
-            >
-              FEATURES
-            </div>
-            <div class="bg-zinc-500 self-stretch shrink-0 h-[3px] -mr-5 mt-8"></div>
-          </div>
-        </div>
-        <div class="self-center w-[896px] max-w-full mt-20 px-5 max-md:mt-10">
-          <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-            <div
-              class="flex flex-col items-stretch w-[34%] max-md:w-full max-md:ml-0 p-6"
-            >
-              <div class="flex flex-col items-stretch my-auto max-md:mt-10">
-                <div class="justify-center text-black text-3xl font-bold leading-9">
-                  Feature
-                </div>
-                <div
-                  class="justify-center text-black text-3xl leading-9 mt-12 max-md:mt-10"
-                >
-                  introduction
-                </div>
-                <div
-                  class="justify-center text-black text-3xl font-bold leading-9 mt-32 max-md:mt-10"
-                >
-                  Feature
-                </div>
-                <div
-                  class="justify-center text-black text-3xl leading-9 mt-12 max-md:mt-10"
-                >
-                  introduction
-                </div>
-                <div
-                  class="justify-center text-black text-3xl font-bold leading-9 mt-32 max-md:mt-10"
-                >
-                  Feature
-                </div>
-                <div
-                  class="justify-center text-black text-3xl leading-9 mt-12 max-md:mt-10"
-                >
-                  introduction
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex flex-col items-stretch w-[43%] ml-5 max-md:w-full max-md:ml-0"
-            >
-              <img
-                src="./imgs/Checkout Page.png"
-                class="aspect-[0.49] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
-              />
-            </div>
-            <div
-              class="flex flex-col items-stretch w-[34%] ml-5 max-md:w-full max-md:ml-0 p-6 "
-            >
-              <div class="flex flex-col items-stretch my-auto max-md:mt-10 ">
-                <div class="justify-center text-black text-3xl font-bold leading-9">
-                  Feature
-                </div>
-                <div
-                  class="justify-center text-black text-3xl leading-9 mt-12 max-md:mt-10"
-                >
-                  introduction
-                </div>
-                <div
-                  class="justify-center text-black text-3xl font-bold leading-9 mt-32 max-md:mt-10"
-                >
-                  Feature
-                </div>
-                <div
-                  class="justify-center text-black text-3xl leading-9 mt-12 max-md:mt-10"
-                >
-                  introduction
-                </div>
-                <div
-                  class="justify-center text-black text-3xl font-bold leading-9 mt-32 max-md:mt-10"
-                >
-                  Feature
-                </div>
-                <div
-                  class="justify-center text-black text-3xl leading-9 mt-12 max-md:mt-10"
-                >
-                  introduction
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="bg-amber-400 self-stretch flex w-full flex-col items-stretch mt-52 pl-16 pr-16 py-12 max-md:max-w-full max-md:mt-10 max-md:px-5"
+          class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"
         >
           <div
-            class="self-center w-full max-w-[1118px] mt-14 max-md:max-w-full max-md:mt-10"
+            class="flex flex-col items-stretch w-[34%] max-md:w-full max-md:ml-0 p-6"
           >
-            <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+            <div class="flex flex-col items-stretch my-auto max-md:mt-10">
               <div
-                class="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0"
+                class="justify-center text-black text-3xl font-bold leading-9"
+              >
+                Quick Ordering Process
+              </div>
+              <div
+                class="justify-center text-black text-xl leading-9 mt-12 max-md:mt-10"
+              >
+                Streamlined, user-friendly ordering with minimal wait and
+                clicks.
+              </div>
+              <div
+                class="justify-center text-black text-3xl font-bold leading-9 mt-32 max-md:mt-10"
+              >
+                User-friendly Menu Navigation
+              </div>
+              <div
+                class="justify-center text-black text-xl leading-9 mt-12 max-md:mt-10"
+              >
+                Visually appealing, easy-to-navigate menu with logical
+                categories and filters.
+              </div>
+              <div
+                class="justify-center text-black text-3xl font-bold leading-9 mt-32 max-md:mt-10"
+              >
+                Customizable Ordering Options
+              </div>
+              <div
+                class="justify-center text-black text-xl leading-9 mt-12 max-md:mt-10"
+              >
+                Personalize orders based on preferences; add notes for kitchen
+                staff.
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-stretch w-[43%] ml-5 max-md:w-full max-md:ml-0"
+          >
+            <img
+              src="./imgs/Checkout Page.png"
+              class="aspect-[0.49] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
+            />
+          </div>
+          <div
+            class="flex flex-col items-stretch w-[34%] ml-5 max-md:w-full max-md:ml-0 p-6"
+          >
+            <div class="flex flex-col items-stretch my-auto max-md:mt-10">
+              <div
+                class="justify-center text-black text-3xl font-bold leading-9"
+              >
+                Secure and Convenient Payment Methods
+              </div>
+              <div
+                class="justify-center text-black text-xl leading-9 mt-12 max-md:mt-10"
+              >
+                Variety of secure payment options with efficient and safe
+                checkout.
+              </div>
+              <div
+                class="justify-center text-black text-3xl font-bold leading-9 mt-32 max-md:mt-10"
+              >
+                Order Tracking and Notifications
+              </div>
+              <div
+                class="justify-center text-black text-xl leading-9 mt-12 max-md:mt-10"
+              >
+                Real-time order updates and notifications with estimated
+                delivery times.
+              </div>
+              <div
+                class="justify-center text-black text-3xl font-bold leading-9 mt-32 max-md:mt-10"
+              >
+                Special Requests Handling
+              </div>
+              <div
+                class="justify-center text-black text-xl leading-9 mt-12 max-md:mt-10"
+              >
+                Accommodate special requests and instructions via dedicated app
+                section.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-amber-400 self-stretch flex w-full flex-col items-stretch mt-52 pl-16 pr-16 py-12 max-md:max-w-full max-md:mt-10 max-md:px-5"
+      >
+        <div
+          class="self-center w-full max-w-[1118px] mt-14 max-md:max-w-full max-md:mt-10"
+        >
+          <div
+            class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"
+          >
+            <div
+              class="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0"
+            >
+              <div
+                class="justify-center text-lime-600 text-right text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
+              >
+                HOW IT
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div
+                class="justify-center text-red-500 text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
+              >
+                WORKS
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="justify-center text-black text-3xl leading-9 self-center max-w-[827px] mt-10 max-md:max-w-full"
+        >
+          Select your location, choose your meal, customize your order, pay
+          securely, and track in real-time—all through a seamless mobile
+          interface.
+        </div>
+        <div
+          class="justify-center text-black text-3xl leading-9 max-w-[449px] bg-zinc-300 items-center mt-16 mb-14 pt-56 pb-40 px-5 max-md:max-w-full max-md:my-10 max-md:py-10"
+        >
+          INFOGRAPHIC
+          <br />
+          about how the app works
+        </div>
+      </div>
+      <div
+        class="self-center flex w-full max-w-[1117px] flex-col items-stretch mt-36 max-md:max-w-full max-md:mt-10"
+      >
+        <div class="max-md:max-w-full">
+          <div
+            class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"
+          >
+            <div
+              class="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0"
+            >
+              <div
+                class="justify-center text-stone-500 text-right text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
+              >
+                FREQUENTLY ASKED
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div
+                class="justify-center text-red-500 text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
+              >
+                QUESTIONS
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="justify-center text-black text-center text-3xl leading-9 max-w-[889px] ml-56 mt-11 self-start max-md:ml-2.5 max-md:mt-10"
+        >
+          MOST POPULAR QUESTIONS
+        </div>
+      </div>
+      <div
+        class="justify-center self-center w-full max-w-[1246px] mt-11 px-5 max-md:max-w-full max-md:mt-10"
+      >
+        <div
+          class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"
+        >
+          <div
+            class="flex flex-col items-stretch w-3/12 max-md:w-full max-md:ml-0"
+          >
+            <div class="flex grow flex-col items-stretch max-md:mt-8">
+              <div
+                class="justify-center text-black text-center text-3xl leading-9 bg-zinc-300 items-center px-5 py-12"
+              >
+                How do I choose my pickup location in the app?
+              </div>
+              <div
+                class="justify-center text-black text-center text-xl leading-9 border bg-white items-center pt-24 pb-52 px-5 border-solid border-black max-md:py-10"
+              >
+                Tap 'Select Location' and use your current location or enter an
+                address manually to find nearby options for pickup.
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+          >
+            <div class="flex grow flex-col items-stretch max-md:mt-8">
+              <div
+                class="justify-center text-black text-center text-3xl leading-9 bg-zinc-300 items-center px-5 py-12"
+              >
+                Can I schedule my order for a later time?
+              </div>
+              <div
+                class="justify-center text-black text-center text-xl leading-9 border bg-white items-center pt-24 pb-52 px-5 border-solid border-black max-md:py-10"
+              >
+                Yes, during checkout, you have the option to choose 'ASAP' for
+                immediate pickup or 'Schedule' to set a future time.
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+          >
+            <div class="flex grow flex-col items-stretch max-md:mt-8">
+              <div
+                class="justify-center text-black text-center text-3xl leading-9 bg-zinc-300 items-center px-5 py-12"
+              >
+                What payment methods are accepted in the app?
+              </div>
+              <div
+                class="justify-center text-black text-center text-xl leading-9 border bg-white items-center pt-24 pb-52 px-5 border-solid border-black max-md:py-10"
+              >
+                The app accepts various secure payment options, including
+                credit/debit cards and mobile wallets, for your convenience.
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
+          >
+            <div class="flex grow flex-col items-stretch max-md:mt-8">
+              <div
+                class="justify-center text-black text-center text-3xl leading-9 bg-zinc-300 items-center px-5 py-12"
+              >
+                How do I track my order after checkout?
+              </div>
+              <div
+                class="justify-center text-black text-center text-xl leading-9 border bg-white items-center pt-24 pb-52 px-5 border-solid border-black max-md:py-10"
+              >
+                Post-confirmation, click 'Track Order' to receive real-time
+                updates and notifications on the status of your order.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-amber-400 self-stretch flex w-full flex-col items-center mt-44 px-5 py-12 max-md:max-w-full max-md:mt-10"
+      >
+        <div class="flex w-[958px] max-w-full flex-col mt-14 mb-9 max-md:mt-10">
+          <div class="self-center w-[754px] max-w-full">
+            <div
+              class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"
+            >
+              <div
+                class="flex flex-col items-stretch w-[37%] max-md:w-full max-md:ml-0"
               >
                 <div
-                  class="justify-center text-lime-600 text-right text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
+                  class="justify-center text-stone-500 text-right text-5xl font-bold leading-[58px] max-md:text-4xl max-md:leading-[54px] max-md:mt-5"
                 >
-                  HOW IT
+                  APP
                 </div>
               </div>
               <div
-                class="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0"
+                class="flex flex-col items-stretch w-[63%] ml-5 max-md:w-full max-md:ml-0"
               >
                 <div
-                  class="justify-center text-red-500 text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
+                  class="justify-center text-red-500 text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-5"
                 >
-                  WORKS
+                  SCREENSHOTS
                 </div>
               </div>
             </div>
@@ -199,122 +385,197 @@
           <div
             class="justify-center text-black text-3xl leading-9 self-center max-w-[827px] mt-10 max-md:max-w-full"
           >
-            Lorem ipsum dolor sit amet consectetur. Rhoncus gravida ultrices ipsum
-            elementum consectetur donec sed. Suspendisse ut nec massa nunc enim
-            senectus tempus.
+            Explore app features from selection to confirmation: Select
+            Location, Checkout with payment and tip options, and Order
+            Confirmation with tracking.
           </div>
-          <div
-            class="justify-center text-black text-3xl leading-9 max-w-[449px] bg-zinc-300 items-center mt-16 mb-14 pt-56 pb-40 px-5 max-md:max-w-full max-md:my-10 max-md:py-10"
-          >
-            INFOGRAPHIC
-            <br />
-            about how the app works
-          </div>
-        </div>
-        <div
-          class="self-center flex w-full max-w-[1117px] flex-col items-stretch mt-36 max-md:max-w-full max-md:mt-10"
-        >
-          <div class="max-md:max-w-full">
-            <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+          <div class="justify-center self-stretch mt-8 max-md:max-w-full">
+            <div
+              class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"
+            >
               <div
-                class="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0"
+                class="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0"
               >
-                <div
-                  class="justify-center text-stone-500 text-right text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
-                >
-                  FREQUENTLY ASKED
-                </div>
+                <img
+                  src="./imgs/Address.png"
+                  class="aspect-[0.49] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
+                />
               </div>
               <div
-                class="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0"
+                class="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0"
               >
+                <img
+                  src="./imgs/Confirmation Page.png"
+                  class="aspect-[0.49] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
+                />
+              </div>
+              <div
+                class="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0"
+              >
+                <img
+                  src="./imgs/Checkout Page.png"
+                  class="aspect-[0.49] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
+                />
+              </div>
+            </div>
+          </div>
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/5ae3f615-3cb0-4a01-b49b-41243e6cc6ab?apiKey=97d67695644d4dd89be6de8ac3b3a4de&"
+            class="aspect-[11.27] object-contain object-center w-[124px] overflow-hidden self-center max-w-full mt-7"
+          />
+        </div>
+      </div>
+      <div
+        class="self-stretch flex w-full flex-col items-center mt-24 px-20 max-md:mt-10 max-md:px-5"
+      >
+        <div class="w-full max-w-[1135px] max-md:max-w-full">
+          <div
+            class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"
+          >
+            <div
+              class="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0"
+            >
+              <div
+                class="justify-center text-stone-500 text-right text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
+              >
+                DOWNLOAD
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0"
+            >
+              <div
+                class="justify-center text-red-500 text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
+              >
+                APP
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="justify-between items-stretch self-stretch flex w-full gap-5 ml-3.5 mr-3.5 mt-16 pr-10 max-md:max-w-full max-md:flex-wrap max-md:justify-center max-md:mr-2.5 max-md:mt-10 max-md:pr-5"
+        >
+          <div
+            class="justify-center items-stretch border-[color:var(--brand---orange,#DB6146)] flex grow basis-[0%] flex-col px-1 border-[3px] border-solid"
+          >
+            <div class="bg-white flex w-full flex-col items-stretch">
+              <div
+                class="bg-white flex items-stretch justify-between gap-5 px-8 py-5 rounded-xl max-md:px-5"
+              >
+                <img
+                  loading="lazy"
+                  srcset="
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100   100w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200   200w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400   400w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800   800w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&
+                  "
+                  class="aspect-square object-contain object-center w-[60px] overflow-hidden shrink-0 max-w-full"
+                />
                 <div
-                  class="justify-center text-red-500 text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
+                  class="flex grow basis-[0%] flex-col items-stretch self-start"
                 >
-                  QUESTIONS
+                  <div class="justify-center text-red-500 text-lg leading-6">
+                    Available on the
+                  </div>
+                  <div
+                    class="justify-center text-red-500 text-center text-2xl font-bold leading-7 whitespace-nowrap mt-5"
+                  >
+                    Windows Store
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div
-            class="justify-center text-black text-center text-3xl leading-9 max-w-[889px] ml-56 mt-11 self-start max-md:ml-2.5 max-md:mt-10"
+            class="justify-center items-stretch border-[color:var(--Orange,#C24E0D)] flex grow basis-[0%] flex-col px-1 border-[3px] border-solid"
           >
-            MOST POPULAR QUESTIONS
-          </div>
-        </div>
-        <div
-          class="justify-center self-center w-full max-w-[1246px] mt-11 px-5 max-md:max-w-full max-md:mt-10"
-        >
-          <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-            <div class="flex flex-col items-stretch w-3/12 max-md:w-full max-md:ml-0">
-              <div class="flex grow flex-col items-stretch max-md:mt-8">
+            <div class="bg-white flex w-full flex-col items-stretch">
+              <div
+                class="bg-white flex items-stretch justify-between gap-5 pl-8 pr-14 py-5 rounded-xl max-md:px-5"
+              >
+                <img
+                  loading="lazy"
+                  srcset="
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100   100w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200   200w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400   400w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800   800w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&
+                  "
+                  class="aspect-square object-contain object-center w-[60px] overflow-hidden shrink-0 max-w-full"
+                />
                 <div
-                  class="justify-center text-black text-center text-3xl leading-9 bg-zinc-300 items-center px-5 py-12"
+                  class="flex grow basis-[0%] flex-col items-stretch self-start"
                 >
-                  QUESTION
-                </div>
-                <div
-                  class="justify-center text-black text-center text-3xl leading-9 border bg-white items-center pt-24 pb-52 px-5 border-solid border-black max-md:py-10"
-                >
-                  ANSWER
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
-            >
-              <div class="flex grow flex-col items-stretch max-md:mt-8">
-                <div
-                  class="justify-center text-black text-center text-3xl leading-9 bg-zinc-300 items-center px-5 py-12"
-                >
-                  QUESTION
-                </div>
-                <div
-                  class="justify-center text-black text-center text-3xl leading-9 border bg-white items-center pt-24 pb-52 px-5 border-solid border-black max-md:py-10"
-                >
-                  ANSWER
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
-            >
-              <div class="flex grow flex-col items-stretch max-md:mt-8">
-                <div
-                  class="justify-center text-black text-center text-3xl leading-9 bg-zinc-300 items-center px-5 py-12"
-                >
-                  QUESTION
-                </div>
-                <div
-                  class="justify-center text-black text-center text-3xl leading-9 border bg-white items-center pt-24 pb-52 px-5 border-solid border-black max-md:py-10"
-                >
-                  ANSWER
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0"
-            >
-              <div class="flex grow flex-col items-stretch max-md:mt-8">
-                <div
-                  class="justify-center text-black text-center text-3xl leading-9 bg-zinc-300 items-center px-5 py-12"
-                >
-                  QUESTION
-                </div>
-                <div
-                  class="justify-center text-black text-center text-3xl leading-9 border bg-white items-center pt-24 pb-52 px-5 border-solid border-black max-md:py-10"
-                >
-                  ANSWER
+                  <div class="justify-center text-orange-700 text-lg leading-6">
+                    Available on the
+                  </div>
+                  <div
+                    class="justify-center text-orange-700 text-center text-2xl font-bold leading-7 ml-4 mt-5 max-md:ml-2.5"
+                  >
+                    Play Store
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <div
+            class="justify-center items-stretch border-[color:var(--Orange,#C24E0D)] flex grow basis-[0%] flex-col px-1 border-[3px] border-solid"
+          >
+            <div class="bg-white flex w-full flex-col items-stretch">
+              <div
+                class="bg-white flex items-stretch justify-between gap-5 pl-8 pr-12 py-5 rounded-xl max-md:px-5"
+              >
+                <img
+                  loading="lazy"
+                  srcset="
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100   100w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200   200w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400   400w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800   800w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w,
+                    https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&
+                  "
+                  class="aspect-square object-contain object-center w-[60px] overflow-hidden shrink-0 max-w-full"
+                />
+                <div
+                  class="flex grow basis-[0%] flex-col items-stretch self-start"
+                >
+                  <div class="justify-center text-orange-700 text-lg leading-6">
+                    Available on the
+                  </div>
+                  <div
+                    class="justify-center text-orange-700 text-center text-2xl font-bold leading-7 mt-5"
+                  >
+                    Apple Store
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div
+        class="bg-amber-400 self-stretch flex w-full flex-col items-center mt-36 px-5 py-12 max-md:max-w-full max-md:mt-10"
+      >
         <div
-          class="bg-amber-400 self-stretch flex w-full flex-col items-center mt-44 px-5 py-12 max-md:max-w-full max-md:mt-10"
+          class="flex w-[791px] max-w-full flex-col items-center mt-3.5 mb-20 max-md:mb-10"
         >
-          <div class="flex w-[958px] max-w-full flex-col mt-14 mb-9 max-md:mt-10">
-            <div class="self-center w-[754px] max-w-full">
+          <div
+            class="self-stretch flex flex-col pl-4 items-end max-md:max-w-full"
+          >
+            <div class="w-[736px] max-w-full">
               <div
                 class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"
               >
@@ -324,7 +585,7 @@
                   <div
                     class="justify-center text-stone-500 text-right text-5xl font-bold leading-[58px] max-md:text-4xl max-md:leading-[54px] max-md:mt-5"
                   >
-                    APP
+                    USERS
                   </div>
                 </div>
                 <div
@@ -333,335 +594,194 @@
                   <div
                     class="justify-center text-red-500 text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-5"
                   >
-                    SCREENSHOTS
+                    TESTIMONIALS
                   </div>
                 </div>
               </div>
-            </div>
-            <div
-              class="justify-center text-black text-3xl leading-9 self-center max-w-[827px] mt-10 max-md:max-w-full"
-            >
-              Lorem ipsum dolor sit amet consectetur. Rhoncus gravida ultrices ipsum
-              elementum consectetur donec sed. Suspendisse ut nec massa nunc enim
-              senectus tempus.
-            </div>
-            <div class="justify-center self-stretch mt-8 max-md:max-w-full">
-              <div
-                class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"
-              >
-                <div
-                  class="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0"
-                >
-                  <img
-                    src="./imgs/Address.png"
-                    class="aspect-[0.49] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
-                  />
-                </div>
-                <div
-                  class="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0"
-                >
-                  <img
-                    src="./imgs/Confirmation Page.png"
-                    class="aspect-[0.49] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
-                  />
-                </div>
-                <div
-                  class="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0"
-                >
-                  <img
-                    src="./imgs/Checkout Page.png"
-                    class="aspect-[0.49] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
-                  />
-                </div>
-              </div>
-            </div>
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/5ae3f615-3cb0-4a01-b49b-41243e6cc6ab?apiKey=97d67695644d4dd89be6de8ac3b3a4de&"
-              class="aspect-[11.27] object-contain object-center w-[124px] overflow-hidden self-center max-w-full mt-7"
-            />
-          </div>
-        </div>
-        <div
-          class="self-stretch flex w-full flex-col items-center mt-24 px-20 max-md:mt-10 max-md:px-5"
-        >
-          <div class="w-full max-w-[1135px] max-md:max-w-full">
-            <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-              <div
-                class="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0"
-              >
-                <div
-                  class="justify-center text-stone-500 text-right text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
-                >
-                  DOWNLOAD
-                </div>
-              </div>
-              <div
-                class="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0"
-              >
-                <div
-                  class="justify-center text-red-500 text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
-                >
-                  APP
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="justify-between items-stretch self-stretch flex w-full gap-5 ml-3.5 mr-3.5 mt-16 pr-10 max-md:max-w-full max-md:flex-wrap max-md:justify-center max-md:mr-2.5 max-md:mt-10 max-md:pr-5"
-          >
-            <div
-              class="justify-center items-stretch border-[color:var(--brand---orange,#DB6146)] flex grow basis-[0%] flex-col px-1 border-[3px] border-solid"
-            >
-              <div class="bg-white flex w-full flex-col items-stretch">
-                <div
-                  class="bg-white flex items-stretch justify-between gap-5 px-8 py-5 rounded-xl max-md:px-5"
-                >
-                  <img
-                    loading="lazy"
-                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7dcf267d-6dde-4cf6-8216-fff1204b3a03?apiKey=97d67695644d4dd89be6de8ac3b3a4de&"
-                    class="aspect-square object-contain object-center w-[60px] overflow-hidden shrink-0 max-w-full"
-                  />
-                  <div class="flex grow basis-[0%] flex-col items-stretch self-start">
-                    <div class="justify-center text-red-500 text-lg leading-6">
-                      Available on the
-                    </div>
-                    <div
-                      class="justify-center text-red-500 text-center text-2xl font-bold leading-7 whitespace-nowrap mt-5"
-                    >
-                      Windows Store
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="justify-center items-stretch border-[color:var(--Orange,#C24E0D)] flex grow basis-[0%] flex-col px-1 border-[3px] border-solid"
-            >
-              <div class="bg-white flex w-full flex-col items-stretch">
-                <div
-                  class="bg-white flex items-stretch justify-between gap-5 pl-8 pr-14 py-5 rounded-xl max-md:px-5"
-                >
-                  <img
-                    loading="lazy"
-                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/066e9c2e-9e33-4849-8902-3761003d061a?apiKey=97d67695644d4dd89be6de8ac3b3a4de&"
-                    class="aspect-square object-contain object-center w-[60px] overflow-hidden shrink-0 max-w-full"
-                  />
-                  <div class="flex grow basis-[0%] flex-col items-stretch self-start">
-                    <div class="justify-center text-orange-700 text-lg leading-6">
-                      Available on the
-                    </div>
-                    <div
-                      class="justify-center text-orange-700 text-center text-2xl font-bold leading-7 ml-4 mt-5 max-md:ml-2.5"
-                    >
-                      Play Store
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="justify-center items-stretch border-[color:var(--Orange,#C24E0D)] flex grow basis-[0%] flex-col px-1 border-[3px] border-solid"
-            >
-              <div class="bg-white flex w-full flex-col items-stretch">
-                <div
-                  class="bg-white flex items-stretch justify-between gap-5 pl-8 pr-12 py-5 rounded-xl max-md:px-5"
-                >
-                  <img
-                    loading="lazy"
-                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/937b2422-e75a-40d9-932d-455345e2cb07?apiKey=97d67695644d4dd89be6de8ac3b3a4de&"
-                    class="aspect-square object-contain object-center w-[60px] overflow-hidden shrink-0 max-w-full"
-                  />
-                  <div class="flex grow basis-[0%] flex-col items-stretch self-start">
-                    <div class="justify-center text-orange-700 text-lg leading-6">
-                      Available on the
-                    </div>
-                    <div
-                      class="justify-center text-orange-700 text-center text-2xl font-bold leading-7 mt-5"
-                    >
-                      Apple Store
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="bg-amber-400 self-stretch flex w-full flex-col items-center mt-36 px-5 py-12 max-md:max-w-full max-md:mt-10"
-        >
-          <div
-            class="flex w-[791px] max-w-full flex-col items-center mt-3.5 mb-20 max-md:mb-10"
-          >
-            <div class="self-stretch flex flex-col pl-4 items-end max-md:max-w-full">
-              <div class="w-[736px] max-w-full">
-                <div
-                  class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"
-                >
-                  <div
-                    class="flex flex-col items-stretch w-[37%] max-md:w-full max-md:ml-0"
-                  >
-                    <div
-                      class="justify-center text-stone-500 text-right text-5xl font-bold leading-[58px] max-md:text-4xl max-md:leading-[54px] max-md:mt-5"
-                    >
-                      USERS
-                    </div>
-                  </div>
-                  <div
-                    class="flex flex-col items-stretch w-[63%] ml-5 max-md:w-full max-md:ml-0"
-                  >
-                    <div
-                      class="justify-center text-red-500 text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-5"
-                    >
-                      TESTIMONIALS
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="justify-center text-black text-3xl leading-9 self-stretch mt-20 max-md:max-w-full max-md:mt-10"
-              >
-                Hear about how our customers think about our app!
-              </div>
-              <div
-                class="self-center flex w-[244px] shrink-0 h-[243px] flex-col mt-36 rounded-[50%] max-md:mt-10"
-              ></div>
             </div>
             <div
               class="justify-center text-black text-3xl leading-9 self-stretch mt-20 max-md:max-w-full max-md:mt-10"
             >
-              “Lorem ipsum dolor sit amet consectetur. Viverra magna lobortis eu sit
-              ultricies cursus donec. Diam nulla vitae facilisis sed ac nibh in.”
-            </div>
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/04350691-bbcd-44dc-91a4-0bfcc81e0c55?apiKey=97d67695644d4dd89be6de8ac3b3a4de&"
-              class="aspect-[11.27] object-contain object-center w-[124px] overflow-hidden max-w-full mt-20 max-md:mt-10"
-            />
-          </div>
-        </div>
-        <div
-          class="self-center w-full max-w-[1117px] mt-24 px-5 max-md:max-w-full max-md:mt-10"
-        >
-          <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-            <div class="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
-              <div
-                class="justify-center text-stone-500 text-right text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
-              >
-                SUBSCRIBE OUR
-              </div>
+              Hear about how our customers think about our app!
             </div>
             <div
-              class="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0"
+              class="self-center flex w-[244px] shrink-0 h-[243px] flex-col mt-36 rounded-[50%] max-md:mt-10"
             >
-              <div
-                class="justify-center text-red-500 text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
-              >
-                NEWSLETTER
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="border-[color:var(--Orange,#C24E0D)] bg-white bg-opacity-0 self-center flex  pr-0 items-center justify-between gap-5 mt-20 pl-16 border-[3px] border-solid max-md:max-w-full max-md:flex-wrap max-md:mt-10 max-md:pl-5"
-        >
-          <div
-            class="flex items-stretch justify-between gap-5 my-auto max-md:max-w-full max-md:flex-wrap"
-          >
-            <img
-              loading="lazy"
-              srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&"
-              class="aspect-square object-contain object-center w-[60px] overflow-hidden shrink-0 max-w-full"
-            />
-            <div
-              class="justify-center text-red-300 text-3xl leading-9 self-center my-auto"
-            >
-              Type your email address ...
+              <!-- image of person -->
+              <img
+                src="./imgs/IMG_1824.jpg"
+                alt="satisfied customer"
+                class="rounded-lg"
+              />
             </div>
           </div>
           <div
-            class="justify-center text-white text-center text-4xl font-bold leading-10 max-w-[398px] border-[color:var(--Orange,#C24E0D)] bg-orange-700 bg-opacity-30 self-stretch z-[1] grow items-center pt-11 pb-14 px-5 border-[3px] border-solid"
+            class="justify-center text-black text-3xl italic leading-9 self-stretch mt-20 max-md:max-w-full max-md:mt-10"
           >
-            SUBSCRIBE
+            "From selecting my meal to payment, everything was so intuitive. I'm
+            impressed with how user-friendly this app is!"
           </div>
-        </div>
-        <div
-          class="bg-amber-400 self-stretch flex w-full flex-col items-center mt-24 px-5 py-12 max-md:max-w-full max-md:mt-10"
-        >
-          <div class="flex w-[955px] max-w-full flex-col mt-3.5 mb-3">
-            <div
-              class="self-stretch flex flex-col items-stretch pl-5 pr-20 max-md:max-w-full max-md:px-5"
-            >
-              <div
-                class="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap"
-              >
-                <div
-                  class="justify-center text-stone-500 text-right text-5xl font-bold leading-[58px] grow shrink basis-auto max-md:max-w-full max-md:text-4xl max-md:leading-[54px]"
-                >
-                  CONTACT
-                </div>
-                <div
-                  class="justify-center text-red-500 text-5xl font-bold leading-[58px] max-md:text-4xl max-md:leading-[54px]"
-                >
-                  US
-                </div>
-              </div>
-              <div
-                class="justify-center text-black text-3xl leading-9 max-w-[827px] mt-11 self-end max-md:max-w-full max-md:mt-10"
-              >
-                Lorem ipsum dolor sit amet consectetur. Rhoncus gravida ultrices ipsum
-                elementum consectetur donec sed. Suspendisse ut nec massa nunc enim
-                senectus tempus.
-              </div>
-            </div>
-            <div
-              class="justify-center text-white text-opacity-70 text-3xl leading-9 max-w-[573px] border-[color:var(--brand---orange,#DB6146)] bg-white bg-opacity-10 self-stretch mt-12 pt-12 pb-14 px-5 border-[3px] border-solid items-start max-md:max-w-full max-md:mt-10 max-md:pl-2.5"
-            >
-              Your Name
-            </div>
-            <div
-              class="justify-center text-white text-opacity-70 text-3xl leading-9 max-w-[573px] border-[color:var(--brand---orange,#DB6146)] bg-white bg-opacity-10 self-stretch mt-7 pt-12 pb-14 px-5 border-[3px] border-solid items-start max-md:max-w-full max-md:pl-2.5"
-            >
-              Email
-            </div>
-            <div
-              class="justify-center text-white text-opacity-70 text-3xl leading-9 max-w-[573px] border-[color:var(--brand---orange,#DB6146)] bg-white bg-opacity-10 self-stretch mt-7 pt-12 pb-28 px-5 border-[3px] border-solid items-start max-md:max-w-full max-md:pl-2.5 max-md:pb-10"
-            >
-              Your message
-            </div>
-            <div
-              class="justify-center text-white text-center text-3xl leading-9 border-[color:var(--brand---orange,#DB6146)] bg-red-500 bg-opacity-30 self-center w-[264px] max-w-full items-center mt-4 px-5 py-9 border-[3px] border-solid"
-            >
-              Send Now
-            </div>
-          </div>
-        </div>
-        <div
-          class="self-center flex w-[220px] max-w-full items-stretch gap-5 mt-28 px-5 max-md:justify-center max-md:mt-10"
-        >
-          <img
+          <!-- <img
             loading="lazy"
-            srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&"
-            class="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
-          />
-          <img
-            loading="lazy"
-            srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&"
-            class="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
-          />
-          <img
-            loading="lazy"
-            srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&"
-            class="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
-          />
-        </div>
-        <div
-          class="justify-center text-red-300 text-center text-4xl font-bold leading-10 self-center max-w-[584px] mt-12 mb-16 max-md:my-10"
-        >
-          Designed by MarkUps.io
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/04350691-bbcd-44dc-91a4-0bfcc81e0c55?apiKey=97d67695644d4dd89be6de8ac3b3a4de&"
+            class="aspect-[11.27] object-contain object-center w-[124px] overflow-hidden max-w-full mt-20 max-md:mt-10"
+          /> -->
         </div>
       </div>
-      
-    
-</body>
+      <div
+        class="self-center w-full max-w-[1117px] mt-24 px-5 max-md:max-w-full max-md:mt-10"
+      >
+        <div
+          class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"
+        >
+          <div
+            class="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0"
+          >
+            <div
+              class="justify-center text-stone-500 text-right text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
+            >
+              SUBSCRIBE OUR
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0"
+          >
+            <div
+              class="justify-center text-red-500 text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px] max-md:mt-7"
+            >
+              NEWSLETTER
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="border-[color:var(--Orange,#C24E0D)] bg-white bg-opacity-0 self-center flex pr-0 items-center justify-between gap-5 mt-20 pl-16 border-[3px] border-solid max-md:max-w-full max-md:flex-wrap max-md:mt-10 max-md:pl-5"
+      >
+        <div
+          class="flex items-stretch justify-between gap-5 my-auto max-md:max-w-full max-md:flex-wrap"
+        >
+          <img
+            loading="lazy"
+            srcset="
+              https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100   100w,
+              https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200   200w,
+              https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400   400w,
+              https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800   800w,
+              https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w,
+              https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w,
+              https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w,
+              https://cdn.builder.io/api/v1/image/assets/TEMP/48387bd6-90ef-4084-9052-9d079cb62530?apiKey=97d67695644d4dd89be6de8ac3b3a4de&
+            "
+            class="aspect-square object-contain object-center w-[60px] overflow-hidden shrink-0 max-w-full"
+          />
+          <div
+            class="justify-center text-red-300 text-3xl leading-9 self-center my-auto"
+          >
+            Type your email address ...
+          </div>
+        </div>
+        <div
+          class="justify-center text-white text-center text-4xl font-bold leading-10 max-w-[398px] border-[color:var(--Orange,#C24E0D)] bg-orange-700 bg-opacity-30 self-stretch z-[1] grow items-center pt-11 pb-14 px-5 border-[3px] border-solid"
+        >
+          SUBSCRIBE
+        </div>
+      </div>
+      <div
+        class="bg-amber-400 self-stretch flex w-full flex-col items-center mt-24 px-5 py-12 max-md:max-w-full max-md:mt-10"
+      >
+        <div class="flex w-[955px] max-w-full flex-col mt-3.5 mb-3">
+          <div
+            class="self-stretch flex flex-col items-stretch pl-5 pr-20 max-md:max-w-full max-md:px-5"
+          >
+            <div
+              class="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap"
+            >
+              <div
+                class="justify-center text-stone-500 text-right text-5xl font-bold leading-[58px] grow shrink basis-auto max-md:max-w-full max-md:text-4xl max-md:leading-[54px]"
+              >
+                CONTACT
+              </div>
+              <div
+                class="justify-center text-red-500 text-5xl font-bold leading-[58px] max-md:text-4xl max-md:leading-[54px]"
+              >
+                US
+              </div>
+            </div>
+            <div
+              class="justify-center text-black text-3xl leading-9 max-w-[827px] mt-11 self-end max-md:max-w-full max-md:mt-10"
+            >
+              Questions, concerns or feedback? Looking for someone to talk to?
+              We're here to help! Get in contact with this form below.
+            </div>
+          </div>
+          <div
+            class="justify-center text-white text-opacity-70 text-3xl leading-9 max-w-[573px] border-[color:var(--brand---orange,#DB6146)] bg-white bg-opacity-10 self-stretch mt-12 pt-12 pb-14 px-5 border-[3px] border-solid items-start max-md:max-w-full max-md:mt-10 max-md:pl-2.5"
+          >
+            Your Name
+          </div>
+          <div
+            class="justify-center text-white text-opacity-70 text-3xl leading-9 max-w-[573px] border-[color:var(--brand---orange,#DB6146)] bg-white bg-opacity-10 self-stretch mt-7 pt-12 pb-14 px-5 border-[3px] border-solid items-start max-md:max-w-full max-md:pl-2.5"
+          >
+            Email
+          </div>
+          <div
+            class="justify-center text-white text-opacity-70 text-3xl leading-9 max-w-[573px] border-[color:var(--brand---orange,#DB6146)] bg-white bg-opacity-10 self-stretch mt-7 pt-12 pb-28 px-5 border-[3px] border-solid items-start max-md:max-w-full max-md:pl-2.5 max-md:pb-10"
+          >
+            Your message
+          </div>
+          <div
+            class="justify-center text-white text-center text-3xl leading-9 border-[color:var(--brand---orange,#DB6146)] bg-red-500 bg-opacity-30 self-center w-[264px] max-w-full items-center mt-4 px-5 py-9 border-[3px] border-solid"
+          >
+            Send Now
+          </div>
+        </div>
+      </div>
+      <div
+        class="self-center flex w-[220px] max-w-full items-stretch gap-5 mt-28 px-5 max-md:justify-center max-md:mt-10"
+      >
+        <img
+          loading="lazy"
+          srcset="
+            https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100   100w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200   200w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400   400w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800   800w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/11ab0429-9d12-4604-aef5-aed31f310306?apiKey=97d67695644d4dd89be6de8ac3b3a4de&
+          "
+          class="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
+        />
+        <img
+          loading="lazy"
+          srcset="
+            https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100   100w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200   200w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400   400w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800   800w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/9e7ef38c-09e5-4987-8f33-a850c6dca53e?apiKey=97d67695644d4dd89be6de8ac3b3a4de&
+          "
+          class="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
+        />
+        <img
+          loading="lazy"
+          srcset="
+            https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=100   100w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=200   200w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=400   400w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=800   800w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1200 1200w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=1600 1600w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&width=2000 2000w,
+            https://cdn.builder.io/api/v1/image/assets/TEMP/76affc02-7ff1-4d90-8f67-a3faadf15be2?apiKey=97d67695644d4dd89be6de8ac3b3a4de&
+          "
+          class="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1"
+        />
+      </div>
+    </div>
+  </body>
 </html>
